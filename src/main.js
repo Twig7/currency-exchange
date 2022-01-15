@@ -17,3 +17,12 @@ function exchangeShow(response, usd, currency) {
     $('#exchangeShow').text(`Oopsie, there was an error!`);
   }
 }
+
+$(document).ready(function() {
+  $('#submitMoney').click(function(event) {
+    event.preventDefault();
+
+    let usd = $('#usd').val();
+    console.log(usd);
+  })
+})
