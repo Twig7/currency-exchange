@@ -28,7 +28,7 @@ $(document).ready(function() {
     let currency = $('input:radio:checked').val();
     Exchange.exchangeRate()
       .then(function(response) {
-
-      }
-  })
-})
+        exchangeShow(response, usd, currency);
+      });
+  });
+});
