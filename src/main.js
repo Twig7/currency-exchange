@@ -26,6 +26,9 @@ $(document).ready(function() {
     console.log(usd);
     $('#usd').val("");
     let currency = $('input:radio:checked').val();
-    
+    Exchange.exchangeRate()
+      .then(function(response) {
+
+      }
   })
 })
