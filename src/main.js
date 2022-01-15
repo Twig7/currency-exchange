@@ -24,5 +24,8 @@ $(document).ready(function() {
 
     let usd = $('#usd').val();
     console.log(usd);
+    $('#usd').val("");
+    let currency = $('input:radio:checked').val();
+    
   })
 })
