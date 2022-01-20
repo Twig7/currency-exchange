@@ -25,6 +25,8 @@ _This code will let you input an amount in USD and convert that into any of the 
 - _install npm in project root directory by running $npm install in the terminal_
 - _open directory in Visual Studio Code or other choice of code editor_
 - _Go grab your own API key from https://app.exchangerate-api.com/ and follow emailed instructions to copy it into code._
+- _Create a file in your project named .env by navigating to the top of the directory and typing "touch .env"_
+- _Navigate to the .env file and type "API_KEY=" and then input your API code._
 - _run npm test in project terminal to test different aspects of the code_
 
 ## Known Bugs
