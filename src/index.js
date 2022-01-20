@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import Exchange from './src/exchange.js';
+import Exchange from "./exchange.js";
 
 function exchangeShow(response, usd, currency) {
   if (response.result != 'success') {
